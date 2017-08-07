@@ -1,0 +1,112 @@
+body
+{
+font-family: 'Open Sans', sans-serif;	
+background:powderblue;
+}
+
+
+.clr
+{
+	
+	color:brown;
+	
+}
+p{
+text-align:center; 
+font-family:Arial;
+color:brown;
+}
+span{
+	color:red;
+}
+
+.circle
+{
+	border-radius:50px;
+	margin:0px;
+	float:center;
+}
+ ul {
+	 
+    list-style:none;
+	
+}
+
+a:link,a:visited
+{
+	text-decoration:none;
+	color:brown;
+	font-family:Arial;
+
+}
+
+
+header h2
+{
+text-align:center;	
+}
+header h1
+{
+	color:black;
+	margin:10px;
+	font-size:30px;
+	font:bold;
+	font-family:Arial;
+	text-align:center;
+}
+header
+{
+	
+	background-image:url('rose1.jpg');
+   height:100px;
+   margin:20px;
+	
+}
+a:hover
+{
+	color:black;
+}
+                nav ul{
+	list-style-type:none;
+	padding:0;
+ }
+	nav{
+		text-align:center;
+	}									
+nav li{
+	display:inline;
+	float:left;
+	
+	
+	}
+	nav a:hover{
+		background-color:green;
+	}
+	
+	nav a:link,a:visited
+	{
+		background-color:pink;
+		color:black;
+		display:block;
+		width:160px;
+		text-align:center;
+		padding:10px 0;
+	}
+	aside
+	{   width:300px;
+	    position=center-right;
+		background:pink;
+		text-align:center;
+		color:black;		
+		padding:20px;
+		float:right;
+	}
+	.mass{
+			background-color:pink;
+		color:black;
+		display:block;
+		width:100%;
+		text-align:center;
+		padding:10px 0;
+	}
+	

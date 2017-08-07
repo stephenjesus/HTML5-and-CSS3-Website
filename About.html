@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ulf-8"/>
+<title>Stephenprakash_About-page</title>
+<link rel="stylesheet"type="text/css" href="about.css">
+
+</head>
+<body>
+
+
+<p> <h1>Just for Fun</h1></p>
+
+<img  src="game.jpg" alt="minions" width="304" height="228">   </br></br>
+
+<button id="but" onclick="fun()">Click me</button>
+
+<p id="demo"></p>
+
+
+<script>
+
+function fun()
+{
+
+var num= prompt("Enter your Lucky number");
+
+if(num=="")
+{
+ document.getElementById("demo").innerHTML =
+        "Please enter any number between 1 to 10";
+		document.getElementById("demo").style.color="red";
+}
+else if(num==1)
+{
+document.getElementById("demo").innerHTML ="PowerStar";
+document.getElementById("demo").style.color="red";
+}else if(num==2)
+{
+document.getElementById("demo").innerHTML ="Ajith Kumar";
+document.getElementById("demo").style.color="red";
+}
+else if(num==3)
+{
+document.getElementById("demo").innerHTML ="Kamal";
+document.getElementById("demo").style.color="red";
+}else if(num==4)
+{
+document.getElementById("demo").innerHTML ="Surya Sivakumar";
+document.getElementById("demo").style.color="red";
+}else if(num==5)
+{
+document.getElementById("demo").innerHTML ="Vijay";
+document.getElementById("demo").style.color="red";
+
+ }
+else if(num==6)
+{
+document.getElementById("demo").innerHTML ="Rajinikanth";
+document.getElementById("demo").style.color="red";
+}
+else if(num==7)
+{
+document.getElementById("demo").innerHTML ="Dhanush";
+document.getElementById("demo").style.color="red";
+}else if(num==8)
+{
+document.getElementById("demo").innerHTML ="Vikram";
+document.getElementById("demo").style.color="red";
+}else if(num==9)
+{
+document.getElementById("demo").innerHTML ="Sivakarthikeyan";
+document.getElementById("demo").style.color="red";
+}else if(num==10)
+{document.getElementById("demo").innerHTML ="Silambarasan";
+document.getElementById("demo").style.color="red";
+}
+else if(num>10)
+{
+document.getElementById("demo").innerHTML ="Enter number between 1 to 10";
+document.getElementById("demo").style.color="red";
+}
+}	
+</script>
+</body>
+</html>

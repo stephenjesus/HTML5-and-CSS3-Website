@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ulf-8"/>
+<title>Stephenprakash_Contact</title>
+<link rel="stylesheet"type="text/css" href="new1.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+<form action="signup.php" method="post">
+<fieldset>
+<legend>Personal details</legend>
+<label> NAME:</label>
+<input type="text" name="name" placeholder="name" autofocus required></br></br>
+<label"> GENDER:</label>
+<label for="male"> Male:</label>
+<input type="radio" name="gender" id="male" value="male">
+<label for="female"> Female:</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="others"> Others:</label>
+<input type="radio" name="gender" id="others" value="others"></br></br>
+<label> EMAIL:</label>
+<input type="email" name="email" placeholder="email"autofocus required></br></br>
+<label> AGE  :</label>
+<input type="number" name="age" placeholder="age" required></br></br>
+<label> D.O.B:</label>
+<input type="date" name="date" placeholder="date" required></br></br>
+<label> File:</label>
+<input type="file" name="file-upload" required<br></br> 
+<textarea cols="60" rows="8" placeholder="Message">
+
+</textarea >
+<input type="button" value="submit" onclick="sumbit()">
+<script>
+function sumbit()
+{
+document.write("summitted");
+}
+</script>
+</fieldset>
+</form></br></br></br></br></br>
+<marquee><img src="contact-us.gif" alt="contact"></marquee>
+</body>
+</html>

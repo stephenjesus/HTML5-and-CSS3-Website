@@ -1,0 +1,114 @@
+
+	
+	
+	
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ulf-8"/>
+<title>Stephenprakash_profile</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet"type="text/css" href="pro.css">
+</head>
+<body> 
+<header>
+<h1>Stephenprakash </br>
+<h2>Profile_Details</h2></h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li> <a href="Profile.html">Profile</a></li>
+<li><a href="Family.html">Family</a></li>
+<li><a href="Contact.html">Contact</a></li>
+<li><a href="Gallery.html">Gallery</a></li>
+<li><a href="About.html">About</a></li>
+</ul>
+</nav>
+</header>
+
+
+
+<p>
+<img src="ste.jpg" height="300px width="450px" alt="jesus loves you" class="circle">
+ </p>
+
+ <aside>
+<blockquote>
+<marquee>
+Don't stop chasing your dreams, because dreams do come true. I have never tried to compare myself to anyone else</marquee></blockquote>
+</aside>
+ <canvas width=640 height=100></canvas>
+ <p> <h1 class="jk">  Profile Details  </h1>
+ <section>
+ <table class="table">
+							<tr>
+							    <td>Name       </td>
+								<td>:Stephenprakash.G</td>
+							 </tr>
+                             <tr>
+								<td>Email       </td>
+								<td>:stephenprakash5@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Date of birth</td>
+								<td>:04/09/1996</td>
+							 </tr>
+							<tr>
+								<td>Degree</td>
+								<td>:BE-Computer Science & Engineering</td>
+							</tr>
+							<tr>
+								<td>Contact    </td>
+								<td>:8344609036</td>
+							</tr>
+                            
+						</table>
+</section>
+<p>
+<nav class="mass">
+<ul>
+<li> <a href="https://en.wikipedia.org/wiki/Vijay_(actor)">Fav Actor</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Shraddha_Kapoor">Fav Actress</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sillunu_Oru_Kaadhal">Fav Movie</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sachin_Tendulkar">Fav Cricketer</a></li>
+</ul>
+</nav>
+</p></br>
+ <p>
+  <h1>Resume</h1>
+  click to view my resume 
+  <a href="steresume.pdf">RESUME </a>
+</p>
+<script>
+  var ctx = document.querySelector("canvas").getContext("2d"), dashLen = 220, dashOffset = dashLen,
+ speed = 10,txt = "StephenPrakash", x = 30, i = 0;
+	    
+  ctx.font = "50px Comic Sans MS, cursive, TSCu_Comic, sans-serif"; 
+  ctx.lineWidth = 5; 
+  ctx.lineJoin = "round";
+  ctx.globalAlpha = 2/3;
+  ctx.strokeStyle = ctx.fillStyle = "red";
+	    (
+		function loop() 
+		{
+    ctx.clearRect(x, 0, 60, 150);
+     ctx.setLineDash([dashLen - dashOffset, dashOffset - speed]);
+      dashOffset -= speed;
+      ctx.strokeText(txt[i], x, 90);
+         if (dashOffset > 0) requestAnimationFrame(loop);
+      else {
+      
+      ctx.fillText(txt[i], x, 90);
+       dashOffset = dashLen;
+         x += ctx.measureText(txt[i++]).width + ctx.lineWidth * Math.random();
+        ctx.setTransform(1, 0, 0, 1, 0, 3 * Math.random());
+        ctx.rotate(Math.random() * 0.005);
+      if (i < txt.length) requestAnimationFrame(loop);
+      }
+    })();
+</script>	
+</body>
+</html>
+<footer>
+ 
+</footer>

@@ -1,0 +1,14 @@
+body {
+	background:powderblue;
+}
+p h1{
+	font:Arial solid;
+	color:red;
+}
+p .demo
+{
+	color:blue;
+}
+canvas {
+	background:url(http://i.imgur.com/5RIXWIE.png) 
+	}
